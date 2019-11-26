@@ -70,6 +70,21 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-assembly-plugin</artifactId>
+                <version>2.2.2</version>
+                <configuration>
+                    <!--如果只想有finalName，则增加配置：-->
+                    <appendAssemblyId>false</appendAssemblyId>
+                    <descriptors>
+                        <!--打成自定义jar-->
+                        <descriptor>src/main/resources/package_jar.xml</descriptor>
+                        <!--打成自定义zip-->
+                        <descriptor>src/main/resources/package_zip.xml</descriptor>
+                    </descriptors>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
 
