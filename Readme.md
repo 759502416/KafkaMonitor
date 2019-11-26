@@ -1,6 +1,6 @@
 这是kafka的监测工具。适用于0.9以上版本。
 
-可根据接口返回的json，自行设计前端页面对接
+可根据接口返回的json，自行设计前端页面对接。https://github.com/759502416/KafkaMonitor/tree/master/image中 有演示图片
 
 2019年11月25日晚上 第一版
 
