@@ -1,4 +1,7 @@
-这是kafka的监测工具。
+这是kafka的监测工具。适用于0.9以上版本。
+
+可根据接口返回的json，自行设计前端页面对接
+
 2019年11月25日晚上 第一版
 
 工具类在src/main/java/com/xgit/kafka/monitor/KafkaUtil.java 中，里面有初步的讲解
