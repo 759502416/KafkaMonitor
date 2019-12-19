@@ -1,0 +1,328 @@
+2019-12-12 14:31:51.719 [main] INFO  com.xgit.kafka.KafkaApplication - Starting KafkaApplication on wanghuxiong with PID 11772 (D:\GitProject\KafkaMonitoring\target\classes started by win in D:\GitProject\KafkaMonitoring)
+2019-12-12 14:31:51.723 [main] INFO  com.xgit.kafka.KafkaApplication - No active profile set, falling back to default profiles: default
+2019-12-12 14:31:52.836 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2019-12-12 14:31:52.846 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-12-12 14:31:52.847 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-12 14:31:52.926 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-12-12 14:31:52.927 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1146 ms
+2019-12-12 14:31:53.083 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-12 14:31:53.303 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2019-12-12 14:31:53.305 [main] INFO  com.xgit.kafka.KafkaApplication - Started KafkaApplication in 2.089 seconds (JVM running for 3.287)
+2019-12-12 14:32:15.589 [http-nio-0.0.0.0-8081-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-12 14:32:15.589 [http-nio-0.0.0.0-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-12-12 14:32:15.597 [http-nio-0.0.0.0-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2019-12-12 14:32:15.630 [http-nio-0.0.0.0-8081-exec-1] INFO  org.apache.kafka.clients.admin.AdminClientConfig - AdminClientConfig values: 
+	bootstrap.servers = [xcmg74.xcmg.com:6667, xcmg79.xcmg.com:6667]
+	client.dns.lookup = default
+	client.id = 
+	connections.max.idle.ms = 300000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 120000
+	retries = 5
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+2019-12-12 14:32:15.657 [http-nio-0.0.0.0-8081-exec-1] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka version: 2.2.0
+2019-12-12 14:32:15.658 [http-nio-0.0.0.0-8081-exec-1] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka commitId: 05fcfde8f69b0349
+2019-12-12 15:16:58.036 [main] INFO  com.xgit.kafka.KafkaApplication - Starting KafkaApplication on wanghuxiong with PID 4712 (D:\GitProject\KafkaMonitoring\target\classes started by win in D:\GitProject\KafkaMonitoring)
+2019-12-12 15:16:58.040 [main] INFO  com.xgit.kafka.KafkaApplication - No active profile set, falling back to default profiles: default
+2019-12-12 15:16:59.303 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2019-12-12 15:16:59.319 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-12-12 15:16:59.320 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-12 15:16:59.432 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-12-12 15:16:59.432 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1318 ms
+2019-12-12 15:16:59.650 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-12 15:16:59.881 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2019-12-12 15:16:59.885 [main] INFO  com.xgit.kafka.KafkaApplication - Started KafkaApplication in 2.429 seconds (JVM running for 3.933)
+2019-12-12 15:17:06.468 [http-nio-0.0.0.0-8081-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-12 15:17:06.468 [http-nio-0.0.0.0-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-12-12 15:17:06.474 [http-nio-0.0.0.0-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2019-12-12 15:17:06.502 [http-nio-0.0.0.0-8081-exec-1] INFO  org.apache.kafka.clients.admin.AdminClientConfig - AdminClientConfig values: 
+	bootstrap.servers = [xcmg74.xcmg.com:6667, xcmg79.xcmg.com:6667]
+	client.dns.lookup = default
+	client.id = 
+	connections.max.idle.ms = 300000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 120000
+	retries = 5
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+2019-12-12 15:17:06.531 [http-nio-0.0.0.0-8081-exec-1] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka version: 2.2.0
+2019-12-12 15:17:06.532 [http-nio-0.0.0.0-8081-exec-1] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka commitId: 05fcfde8f69b0349
+2019-12-12 15:21:55.266 [main] INFO  com.xgit.kafka.KafkaApplication - Starting KafkaApplication on wanghuxiong with PID 4556 (D:\GitProject\KafkaMonitoring\target\classes started by win in D:\GitProject\KafkaMonitoring)
+2019-12-12 15:21:55.270 [main] INFO  com.xgit.kafka.KafkaApplication - No active profile set, falling back to default profiles: default
+2019-12-12 15:21:56.533 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2019-12-12 15:21:56.543 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-12-12 15:21:56.543 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-12 15:21:56.635 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-12-12 15:21:56.636 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1303 ms
+2019-12-12 15:21:56.898 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-12 15:21:57.230 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2019-12-12 15:21:57.233 [main] INFO  com.xgit.kafka.KafkaApplication - Started KafkaApplication in 2.541 seconds (JVM running for 5.003)
+2019-12-12 15:22:02.288 [http-nio-0.0.0.0-8081-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-12 15:22:02.289 [http-nio-0.0.0.0-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-12-12 15:22:02.296 [http-nio-0.0.0.0-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2019-12-12 15:22:02.421 [http-nio-0.0.0.0-8081-exec-1] INFO  org.apache.kafka.clients.admin.AdminClientConfig - AdminClientConfig values: 
+	bootstrap.servers = [xcmg74.xcmg.com:6667, xcmg79.xcmg.com:6667]
+	client.dns.lookup = default
+	client.id = 
+	connections.max.idle.ms = 300000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 120000
+	retries = 5
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+2019-12-12 15:22:02.547 [http-nio-0.0.0.0-8081-exec-1] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka version: 2.2.0
+2019-12-12 15:22:02.549 [http-nio-0.0.0.0-8081-exec-1] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka commitId: 05fcfde8f69b0349
+2019-12-12 15:22:35.509 [http-nio-0.0.0.0-8081-exec-1] ERROR o.a.c.c.C.[.[localhost].[/].[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.IllegalStateException: stream has already been operated upon or closed] with root cause
+java.lang.IllegalStateException: stream has already been operated upon or closed
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:229)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+	at com.xgit.kafka.monitor.KafkaUtil.getAllGroups(KafkaUtil.java:236)
+	at com.xgit.kafka.impl.MonitorServiceImpl.getAllGroup(MonitorServiceImpl.java:24)
+	at com.xgit.kafka.controller.MonitorController.getAllGroup(MonitorController.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1579)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019-12-12 15:24:35.245 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-12-12 16:01:26.746 [main] INFO  com.xgit.kafka.KafkaApplication - Starting KafkaApplication on wanghuxiong with PID 8092 (D:\GitProject\KafkaMonitoring\target\classes started by win in D:\GitProject\KafkaMonitoring)
+2019-12-12 16:01:26.751 [main] INFO  com.xgit.kafka.KafkaApplication - No active profile set, falling back to default profiles: default
+2019-12-12 16:01:28.183 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2019-12-12 16:01:28.194 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-12-12 16:01:28.195 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-12 16:01:28.288 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-12-12 16:01:28.288 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1458 ms
+2019-12-12 16:01:28.466 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-12 16:01:28.703 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2019-12-12 16:01:28.706 [main] INFO  com.xgit.kafka.KafkaApplication - Started KafkaApplication in 2.453 seconds (JVM running for 3.733)
+2019-12-12 16:01:29.851 [http-nio-0.0.0.0-8081-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-12 16:01:29.852 [http-nio-0.0.0.0-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-12-12 16:01:29.867 [http-nio-0.0.0.0-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 13 ms
+2019-12-12 16:01:29.930 [http-nio-0.0.0.0-8081-exec-1] INFO  org.apache.kafka.clients.admin.AdminClientConfig - AdminClientConfig values: 
+	bootstrap.servers = [xcmg74.xcmg.com:6667, xcmg79.xcmg.com:6667]
+	client.dns.lookup = default
+	client.id = 
+	connections.max.idle.ms = 300000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 120000
+	retries = 5
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+2019-12-12 16:01:30.002 [http-nio-0.0.0.0-8081-exec-1] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka version: 2.2.0
+2019-12-12 16:01:30.006 [http-nio-0.0.0.0-8081-exec-1] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka commitId: 05fcfde8f69b0349
+2019-12-12 16:14:34.596 [kafka-admin-client-thread | adminclient-1] WARN  org.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 1007 (xcmg74.xcmg.com/10.80.0.74:6667) could not be established. Broker may not be available.
+2019-12-12 16:14:36.615 [kafka-admin-client-thread | adminclient-1] WARN  org.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 1005 (xcmg79.xcmg.com/10.80.0.79:6667) could not be established. Broker may not be available.
+2019-12-12 16:14:38.629 [kafka-admin-client-thread | adminclient-1] WARN  org.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 1007 (xcmg74.xcmg.com/10.80.0.74:6667) could not be established. Broker may not be available.
+2019-12-12 16:14:40.647 [kafka-admin-client-thread | adminclient-1] WARN  org.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 1005 (xcmg79.xcmg.com/10.80.0.79:6667) could not be established. Broker may not be available.
+2019-12-12 16:14:42.666 [kafka-admin-client-thread | adminclient-1] WARN  org.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 1007 (xcmg74.xcmg.com/10.80.0.74:6667) could not be established. Broker may not be available.
+2019-12-12 16:14:44.679 [kafka-admin-client-thread | adminclient-1] WARN  org.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 1005 (xcmg79.xcmg.com/10.80.0.79:6667) could not be established. Broker may not be available.
+2019-12-12 16:14:46.691 [kafka-admin-client-thread | adminclient-1] WARN  org.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 1007 (xcmg74.xcmg.com/10.80.0.74:6667) could not be established. Broker may not be available.
+2019-12-12 16:14:48.712 [kafka-admin-client-thread | adminclient-1] WARN  org.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 1005 (xcmg79.xcmg.com/10.80.0.79:6667) could not be established. Broker may not be available.
+2019-12-12 16:14:50.733 [kafka-admin-client-thread | adminclient-1] WARN  org.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 1007 (xcmg74.xcmg.com/10.80.0.74:6667) could not be established. Broker may not be available.
+2019-12-12 16:14:52.756 [kafka-admin-client-thread | adminclient-1] WARN  org.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 1005 (xcmg79.xcmg.com/10.80.0.79:6667) could not be established. Broker may not be available.
+2019-12-12 16:14:54.770 [kafka-admin-client-thread | adminclient-1] WARN  org.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 1007 (xcmg74.xcmg.com/10.80.0.74:6667) could not be established. Broker may not be available.
+2019-12-12 16:14:56.786 [kafka-admin-client-thread | adminclient-1] WARN  org.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 1005 (xcmg79.xcmg.com/10.80.0.79:6667) could not be established. Broker may not be available.
+2019-12-12 16:14:58.805 [kafka-admin-client-thread | adminclient-1] WARN  org.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 1007 (xcmg74.xcmg.com/10.80.0.74:6667) could not be established. Broker may not be available.
+2019-12-12 16:15:00.824 [kafka-admin-client-thread | adminclient-1] WARN  org.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 1005 (xcmg79.xcmg.com/10.80.0.79:6667) could not be established. Broker may not be available.
+2019-12-12 16:46:25.626 [kafka-admin-client-thread | adminclient-1] WARN  org.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 1007 (xcmg74.xcmg.com/10.80.0.74:6667) could not be established. Broker may not be available.
+2019-12-12 16:46:30.957 [kafka-admin-client-thread | adminclient-1] WARN  org.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 1005 (xcmg79.xcmg.com/10.80.0.79:6667) could not be established. Broker may not be available.
+2019-12-12 16:46:33.172 [kafka-admin-client-thread | adminclient-1] WARN  org.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 1005 (xcmg79.xcmg.com/10.80.0.79:6667) could not be established. Broker may not be available.
+2019-12-12 16:46:35.487 [kafka-admin-client-thread | adminclient-1] WARN  org.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 1005 (xcmg79.xcmg.com/10.80.0.79:6667) could not be established. Broker may not be available.

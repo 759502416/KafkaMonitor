@@ -63,10 +63,13 @@ public class KafkaUtil {
             tempBroker.setPort(Integer.valueOf(port));
             brokers.add(tempBroker);
         }
-
         props.put(AdminClientConfig.BOOTSTRAP_SERVERS_CONFIG, BROKER_SERVERS);
         client = AdminClient.create(props);
+        System.err.println("打开了client!");
     }
+
+
+
 
     /**
      * 此为简易测试
@@ -353,6 +356,9 @@ public class KafkaUtil {
             Long logSize = endOffsets.get(partitionInfo);
             // 获取到偏移量元数据
             OffsetAndMetadata offsetAndMetadata = topicPartitionOffsetAndMetadataMap.get(partitionInfo);
+            if (offsetAndMetadata == null) {
+                continue;
+            }
             partitionOffset.setTopic(topic);
             partitionOffset.setGroup(groupId);
             partitionOffset.setPartition(partition);
