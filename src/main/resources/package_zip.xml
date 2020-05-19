@@ -48,6 +48,7 @@
             <scope>runtime</scope>
             <!--指定jar包，有自己新加的jar包，要在这里指定-->
             <includes>
+                <include>*</include>
                 <include>*:*</include>
             </includes>
         </dependencySet>

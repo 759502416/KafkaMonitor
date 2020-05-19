@@ -10,6 +10,7 @@ import org.apache.kafka.common.KafkaFuture;
 import org.apache.kafka.common.PartitionInfo;
 import org.apache.kafka.common.TopicPartition;
 
+import java.time.Duration;
 import java.util.*;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.TimeUnit;
@@ -334,7 +335,9 @@ public class KafkaUtil {
             topicPartitions.add(topicPartition);
         }
         // 查询logSize
-        Map<TopicPartition, Long> endOffsets = consumer.endOffsets(topicPartitions);
+
+        //Map<TopicPartition, Long> endOffsets = consumer.endOffsets(topicPartitions);
+        Map<TopicPartition, Long> endOffsets = consumer.endOffsets(topicPartitions,Duration.ofSeconds(30));
         // 根据groupId，获取对应的Map<TopicPartition, OffsetAndMetadata>
         Map<TopicPartition, OffsetAndMetadata> topicPartitionOffsetAndMetadataMap = null;
         try {

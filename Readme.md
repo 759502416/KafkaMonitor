@@ -2,6 +2,8 @@
 
 kafka Monitor
 
+package 打包，运行：java -jar xxxx.jar  10.110.1.1:9092,10.110.1.2:9092
+
 kafkaMonitor 
 
 这是kafka的监测工具。适用于0.9以上版本。
